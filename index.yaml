@@ -3,17 +3,16 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-01T09:49:48.372254+02:00"
+    created: "2020-04-01T10:32:23.8688308+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
-      repository: https://kubernetes-charts.storage.googleapis.com/
+      repository: https://charts.bitnami.com/bitnami
       tags:
       - wordpress-database
       version: 7.x.x
-    deprecated: true
-    description: This is the first wordpress
-    digest: dd8597ab1f8183241c6f65cd0850f1e28335d02865f1f170be4ad69b2f8dbda3
+    description: This is the one wordpress wp9.0.2
+    digest: 12a0f14e6b2a31f2122adf49f058aed55ed25e7a6b77212557d8f5b43b58cc32
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -24,6 +23,9 @@ entries:
     - web
     - application
     - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
     name: wordpress
     sources:
     - https://github.com/bitnami/bitnami-docker-wordpress
@@ -32,7 +34,7 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-01T09:49:48.369326+02:00"
+    created: "2020-04-01T10:32:23.8659029+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -63,7 +65,7 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-01T09:49:48.365422+02:00"
+    created: "2020-04-01T10:32:23.8629753+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -90,4 +92,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-01T09:49:48.361518+02:00"
+generated: "2020-04-01T10:32:23.8590709+02:00"
