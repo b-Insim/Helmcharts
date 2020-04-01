@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-01T08:54:26.1734334+02:00"
+    created: "2020-04-01T09:49:48.372254+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -32,7 +32,38 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-01T08:54:26.1705059+02:00"
+    created: "2020-04-01T09:49:48.369326+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: This is my wordpress that does use PVC.
+    digest: 21a091f32df4c73068ecfebd0d3cdbe1f51df4e5bc6f4c730e58e974a86e0b6d
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.0.tgz
+    version: 9.0.0
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-04-01T09:49:48.365422+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -59,4 +90,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-01T08:54:26.1656254+02:00"
+generated: "2020-04-01T09:49:48.361518+02:00"
