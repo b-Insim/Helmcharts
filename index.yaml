@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T11:55:13.1905743+02:00"
+    created: "2020-04-03T12:06:39.3028327+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -12,8 +12,8 @@ entries:
       - wordpress-database
       version: 7.x.x
     deprecated: true
-    description: This is one stable wordpress for me.
-    digest: 6f8042e95a45f605f35d0187b79f1cf252d3bbba8e56789779a22a2804afd272
+    description: This is a one stable wordpress for me.
+    digest: 3f6f75e758067dbd8fbe9e90804e8032b797029cf36879270a0b94053befa530
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -32,7 +32,7 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T11:55:13.1876463+02:00"
+    created: "2020-04-03T12:06:39.2999048+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -63,7 +63,7 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T11:55:13.1847187+02:00"
+    created: "2020-04-03T12:06:39.2960008+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -90,4 +90,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-03T11:55:13.1798387+02:00"
+generated: "2020-04-03T12:06:39.2920968+02:00"
