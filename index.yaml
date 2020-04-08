@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T10:54:07.9574993+02:00"
+    created: "2020-04-08T15:51:15.2467134+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -12,8 +12,8 @@ entries:
       - wordpress-database
       version: 7.x.x
     deprecated: true
-    description: This wordpress for test interview after interview.
-    digest: 031141ece17433cde82ce91eed6324935daa6f4e52b91382a622c8927708e948
+    description: This is a one for interview.
+    digest: eb831b7cd8b9f2f63c3c1c6eda273d887438eec3c9cf13bca5ebc46d3507f866
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -32,7 +32,7 @@ entries:
     version: 9.0.3
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T10:54:07.9545713+02:00"
+    created: "2020-04-08T15:51:15.2428094+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -61,7 +61,7 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T10:54:07.9506673+02:00"
+    created: "2020-04-08T15:51:15.2398814+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -92,7 +92,7 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T10:54:07.9477393+02:00"
+    created: "2020-04-08T15:51:15.2369538+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -119,4 +119,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-08T10:54:07.9428598+02:00"
+generated: "2020-04-08T15:51:15.2320734+02:00"
