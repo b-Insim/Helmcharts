@@ -3,7 +3,36 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T12:06:39.3028327+02:00"
+    created: "2020-04-08T08:55:16.617311+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    deprecated: true
+    description: This is the test we AWS.
+    digest: 379b769c619cff69aeba6d8a9ddd5f9c2377afca21f1e412ea6f22c5811004ee
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-04-08T08:55:16.613407+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -32,7 +61,7 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T12:06:39.2999048+02:00"
+    created: "2020-04-08T08:55:16.610479+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -63,7 +92,7 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-03T12:06:39.2960008+02:00"
+    created: "2020-04-08T08:55:16.607551+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -90,4 +119,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-03T12:06:39.2920968+02:00"
+generated: "2020-04-08T08:55:16.602671+02:00"
