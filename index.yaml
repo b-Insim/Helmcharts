@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T08:55:16.617311+02:00"
+    created: "2020-04-08T09:27:29.0360006+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -12,8 +12,8 @@ entries:
       - wordpress-database
       version: 7.x.x
     deprecated: true
-    description: This is the test we AWS.
-    digest: 379b769c619cff69aeba6d8a9ddd5f9c2377afca21f1e412ea6f22c5811004ee
+    description: This is the test that does not use AWS pvc.
+    digest: 0051e7acad84d2317f9134bb09ee4ea011384a2db176c99efca6d6ce5dbfed13
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -32,7 +32,7 @@ entries:
     version: 9.0.3
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T08:55:16.613407+02:00"
+    created: "2020-04-08T09:27:29.0320962+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -61,7 +61,7 @@ entries:
     version: 9.0.2
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T08:55:16.610479+02:00"
+    created: "2020-04-08T09:27:29.0291682+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -92,7 +92,7 @@ entries:
     version: 9.0.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-04-08T08:55:16.607551+02:00"
+    created: "2020-04-08T09:27:29.0262402+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -119,4 +119,4 @@ entries:
     urls:
     - wordpress-5.3.0.tgz
     version: 5.3.0
-generated: "2020-04-08T08:55:16.602671+02:00"
+generated: "2020-04-08T09:27:29.0213602+02:00"
